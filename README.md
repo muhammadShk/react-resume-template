@@ -49,7 +49,7 @@ You can restrict API routes using Json web tokens by signing a token with your s
 now when you run nodemon server.js you will see the secret key logging out.
 
 ### 7. Authenticating routes [ server/config/jwt.config.js ]
-module.exports.authenticate = function(req, res, next){
+    module.exports.authenticate = function(req, res, next){
     try{
         jwt.verify(req.cookies.token, process.env.SECRET_KEY);
         next();
@@ -57,18 +57,16 @@ module.exports.authenticate = function(req, res, next){
         res
         .status(401)
         .json({message:'Unauthorized'});
-
     }
-}
+    }
 
 This function takes care of authentication by verifying if the cookie that is passed to the server has our secret key in it. 
-<em>Make sure to pass the token from the front end. like this ---> 
+Make sure to pass the token from the front end. like this ---> 
     useEffect(()=>{
         axios.get('http://localhost:8000/api/inquiry', { withCredentials:true })
         .then((response) => setinquiries(response.data))
         .catch(() => navigate('/'));
         }, []) 
-</em>
 
 The authenticate function is imported into server/routes/[routes folder] and passed in as an argument to app.get(), app.post(), app.put() or app.delete(). Like this -->
 
