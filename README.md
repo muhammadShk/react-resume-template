@@ -79,7 +79,7 @@ The authenticate function is imported into server/routes/[routes folder] and pas
         app.delete("/api/message/:id", messageController.delete);
     }
 
-### 7. Register Yourself as admin [ server/controllers/Users.controller.js ]
+### 8. Register Yourself as admin [ server/controllers/Users.controller.js ]
 To access the Admin dash register yourself first through Postman. Run the server using Nodemon server.js then open post man and create an object Like this --> 
     {
         email:'your@email.com',
