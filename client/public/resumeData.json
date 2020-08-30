@@ -1,0 +1,173 @@
+{
+  "main": {
+    "name":"Subaiyal Sheikh",
+    "occupation":"Full Stack Engineer",
+    "description":"Use this to describe what you do or whatever you feel best describes yourself to a potential employer",
+    "image":"profilepic.jpg",
+    "bio":"My name is Subaiyal Sheikh Aka Moe. I am a Bay Area based Full Stack Engineer. Previous experience in shared transportation and Fintech industry. An agile learner with a passion for building dynamic Web Applications.",
+    "contactmessage":"looking to build the next best thing on the web ? reach out",
+    "email": "subaiyalshk@gmail.com",
+    "phone": "571-287-3419",
+    "address":{
+      "street":"2349 Sawyer Ct",
+      "city":"Santa Clara",
+      "state":"CA",
+      "zip": "95054"
+    },
+    "website": "http://www.subaiyal.sh",
+    "resumedownload":"https://drive.google.com/uc?export=download&id=1ZZDtOjaDD2enehbz18DQ2inl7VC5qTsE",
+    "social":[
+      {
+        "name":"facebook",
+        "url":"http://facebook.com/subaiyalshk/",
+        "className":"fa fa-facebook"
+      },
+      {
+        "name":"twitter",
+        "url":"http://twitter.com",
+        "className":"fa fa-twitter"
+      },
+      {
+        "name":"google-plus",
+        "url":"http://googleplus.com/",
+        "className":"fa fa-google-plus"
+      },
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/subaiyalshk/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"instagram",
+        "url":"http://instagram.com/subaiyalshk",
+        "className":"fa fa-instagram"
+      },
+      {
+        "name":"github",
+        "url":"http://github.com/subaiyalShk",
+        "className":"fa fa-github"
+      },
+      {
+        "name":"skype",
+        "url":"http://skype.com",
+        "className":"fa fa-skype"
+      }
+    ]
+  },
+  "resume":{
+    "skillmessage":"",
+    "education":[
+      {
+        "school":"Coding Dojo",
+        "degree":"Full Stack Web Development",
+        "graduated":"July 2020",
+        "description":"1000+ hours of programming. Aquired the skills to build full stack apps In three languages (Java, Python, Javascript). Earned 'Black Belt', Coding Dojo's distinguished and highest level of knowledge achievement."
+      },
+      {
+        "school":"Simon Fraser University",
+        "degree":"Bsc Mechatronic Systems Engineering",
+        "graduated":"Currently on an academic break",
+        "description":"During my time in University I worked on a home automation and autoleveling drone project. Also was actively running a non-profit organization called SFU Blockchain."
+      }
+    ],
+    "work":[
+      {
+        "company":"The Hertz Corp",
+        "title":"Sales Representative",
+        "years":"September 2019 - Feburary 2020",
+        "description":"Introduced Hertz Home Delivery, a program for customers to conveniently buy cars from home, streamlined this process. Delivered excellent customer service to achieve an average, 30 sales per month often as a result of referrals from previous customers."
+      },
+      {
+        "company":"SFU Blockchain",
+        "title":"Director of External Relations",
+        "years":"April 2018 - February 2019",
+        "description":"By building a strong network of blockchain enthusiasts, acquired sponsorship that facilitated production of “Filter Through the Noise” by Helios Protocol and “Blockchain 101” by 7 Gate Ventures, SFSS and Gena Lab"
+      },
+      {
+        "company":"Ecomobix",
+        "title":"Fleet Technician",
+        "years":"October 2017 - June 2018",
+        "description":"A startup in the fast growing shared mobility service market and was the only fully end-to-end platform for car sharing, ride sharing and smarter mobility. A key team leader of the Fleet Team, lead strategy planning, coordination, and operations to successfully relocate, refuel and diagnose over 2000 Evo Cars (a free floating car Share program) across British Columbia, Canada."
+      }
+    ],
+    "skills":[
+      {
+        "name": "[ Javascript ] Mongo + Express + React + Node",
+        "level":"60%"
+      },
+      {
+        "name":"[ Python ] Django",
+        "level":"75%"
+      },
+      {
+        "name":"[ Java ] Springboot",
+        "level":"50%"
+      },
+      {
+        "name":"CSS",
+        "level":"70%"
+      },
+      {
+        "name":"excuses",
+        "level":"0%"
+      },
+      {
+        "name":"Vanilla Js",
+        "level":"50%"
+      },
+      {
+        "name":"Prototype/ wireframing",
+        "level":"80%"
+      }
+    ]
+  },
+  "portfolio":{
+    "projects": [
+      {
+        "title":"Print Point",
+        "category":"A dynamic CRM style website I built for my printing and packaging business based in Dallas, TX. I really enjoyed working with django since its incredibly modular and extremely powerful. Python has always been my favourite language since it was the first programming language I learnt during my bachelors. For the next version of this website ill be converting the backend to Django Rest Api and front end will be in React. ",
+        "image":"printpoint.gif",
+        "url":"http://www.printpoint.io",
+        "technologies":["python", "django", "HTML", "CSS", "JavaScript", "sqlite", "ajax"]
+      },
+      {
+        "title":"Resume Website",
+        "category":"This portfolio website was built on top on an existing project by Tim Baker. I forked his open sourced project from github and add steroids to it. This project has been converted to a full stack app by adding a back-end, completing the contact form feature and also changing up the Ui by adding motion Ui to the mix. You can find this project on my github and make it your own by changing up a few files.",
+        "image":"resume.gif",
+        "url":"http://www.subaiyal.sh",
+        "technologies":["react", "nodejs", "expressjs", "mongodb", "HTML", "CSS", "jQuery"]
+      },
+      {
+        "title":"TraverseNet",
+        "category":"This is a passion project I had dreamed of building since my freshmen year in college. Back then due to lack of experience, tools and technologies this projected never moved beyond proof of concept phase. After spending time working on the field at a start called Ecomobix based Vancouver, BC, I gained root level understanding of the problems that need to be solved in this space. Project TraverseNet aims to create an adventure like experience for people who use public transit for commute each day. It aims to supplement this experience by offering commuters a variety of mobility options to complete their last mile journey. This project aims to tackle climate change by promoting green transportation alternatives, improving tourism and turning that mundane day to day commute into something fun and exciting. ",
+        "image":"comingSoon.jpg",
+        "url":"",
+        "technologies":["react","HTML", "CSS", "JavaScript", "nodejs", "ethereum", "solidity", "IPFS"]
+      }
+    ]
+  },
+  "testimonials":{
+    "testimonials":[
+      {
+        "text":"“I’ve missed more than 9,000 shots in my career. I’ve lost almost 300 games. 26 times I’ve been trusted to take the game winning shot and missed. I’ve failed over and over and over again in my life and that is why I succeed.”",
+        "user":"Michael Jordan"
+      },
+      {
+        "text":"“He who is not courageous enough to take risks will accomplish nothing in life.”",
+        "user":"Muhammad Ali"
+      },
+      {
+        "text":"“Imagination is more important than knowledge. Knowledge is limited. Imagination encircles the world.”",
+        "user":"Albert Einstein"
+      },
+      {
+        "text":"“خُودی کو کر بُلند اتنا کہ ہر تقدیر سے پہلے خُدا بندے سے خُود پوچھے بتا تیری رضا کیا ہے",
+        "user":"Allama Iqbal"
+      },
+      {
+        "text":"“When I let go of what I am, I become what I might be.”",
+        "user":"Lao Tzu"
+      }
+    ]
+  }
+}
