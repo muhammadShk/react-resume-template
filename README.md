@@ -36,6 +36,7 @@ Next, download this resume template repo and copy the server folder to your proj
 
 ### 5. Setup MongoDB using mongoose [ server/config/mongoose.config ]
 Navigate to mongoose.config file. This where you can connect to mongoDB server locally, once you have mongoDB installed. 
+    
     mongoose.connect("mongodb://localhost/resumeee",{
         useNewUrlParser: true,
         useUnifiedTopology:true,
