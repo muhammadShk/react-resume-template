@@ -1,6 +1,7 @@
 const User  = require('../models/User.model');
 const bcrypt = require('bcrypt');
-const jwt = require('jsonwebtoken')
+const jwt = require('jsonwebtoken');
+const { getMaxListeners } = require('../models/User.model');
 
 module.exports = {
     register(req, res){
@@ -24,10 +25,10 @@ module.exports = {
     },
 
     async login(req,res){
-        const { email, password } = req.body;
+        const { password } = req.body;
         const errMsg = 'please check your email and password.';
         try{
-            const user = await User.findOne({email});
+            const user = await User.findOne({email:'jane@Doe.com'});
 
             if(user === null){
                 throw new Error(400)

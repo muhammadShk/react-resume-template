@@ -79,10 +79,19 @@ The authenticate function is imported into server/routes/[routes folder] and pas
         app.delete("/api/message/:id", messageController.delete);
     }
 
+### 7. Register Yourself as admin [ server/controllers/Users.controller.js ]
+To access the Admin dash register yourself first through Postman. Run the server using Nodemon server.js then open post man and create an object Like this --> 
+    {
+        email:'your@email.com',
+        password:'mischief magic'
+    }
+1. Post it to server.ip.address/api/users. This will register you as a user first. 
+2. From the project root navigate to server/controllers/Users.controller.js. Find line 31: {email:'jane@Doe.com'} and replace it with your email.
+3. Now you can login by front end route by visiting https://ip.address.of.react.app/login
 
 ## Credits
-##### Udemy Course
-<a href="https://www.udemy.com/projects-in-reactjs-the-complete-react-learning-course/learn/v4/overview">Projects in ReactJS: The Complete React Learning Course by Eduonix</a>
+##### Coding Dojo MERN Stack Instructor
+<a href="https://www.youtube.com/channel/UCFtLiNVPlURBLrOcixgFq-w">Morley Tatro</a>
 
 #### HTML Design Template
 <a href="https://www.styleshout.com/free-templates/ceevee/">Ceevee Template by Styleshout</a>

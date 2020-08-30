@@ -51,7 +51,7 @@ class Header extends Component {
                               // .typeString('Great !')
                               // .pauseFor(1500)
                               .deleteAll()
-                              .typeString('You can call me Moe')
+                              .typeString('You can call me Jane Doe')
                               .pauseFor(1500)
                               .deleteAll()
                               .typeString('Welcome to my world')
